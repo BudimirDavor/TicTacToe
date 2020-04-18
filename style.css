@@ -1,0 +1,52 @@
+body{
+	background-color: yellow;
+}
+.vertical{
+	border-right: 1.5px solid black;
+	border-left: 1.5px solid black;
+}
+.horizontal{
+  	border-top: 1.5px solid black;
+	border-bottom : 1.5px solid black;
+}
+td{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 45px;
+}
+table{
+	padding-left: 35%;
+	padding-right: 35%;
+}
+h1{
+	text-align: center;
+}
+div{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.win{
+	color: white;
+	background: blue;
+	transition: all 0.8s;
+}
+.boxred{
+	background-color: red;
+	  transition: all 1s;
+}
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+    transition: all 0.6s;
+    font-weight: 700;
+	letter-spacing: 1px;
+}
+button:hover{
+	color:white;
+	background-color: steelblue;
+}
+.background{
+	background: green;
+}
